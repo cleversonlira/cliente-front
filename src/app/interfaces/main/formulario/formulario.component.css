@@ -1,0 +1,43 @@
+form {    
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+form div {
+    margin: 5px 5px;
+    width: 200px;
+}
+
+
+
+input, select {
+    padding: 8px;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);   
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+}
+
+#salvar {
+    display: flex;
+    width: 92%;
+}
+
+#salvar input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#salvar input:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.div-curta {    
+    width: 80px !important;
+}
